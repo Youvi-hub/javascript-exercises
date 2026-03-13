@@ -11,7 +11,7 @@ const repeatString = function (word, times) {
   return finalString;
 };
 
-let result = repeatString("good6 bye", -1);
+let result = repeatString('', 10);
 console.log (result);
 
 
