@@ -1,4 +1,7 @@
 const repeatString = function (word, times) {
+
+  if (times < 0) return ("ERROR");
+
   let finalString = "";
 
   for (let i = 0; i< times; i++) {
@@ -8,7 +11,7 @@ const repeatString = function (word, times) {
   return finalString;
 };
 
-let result = repeatString("bye", 0);
+let result = repeatString("good6 bye", -1);
 console.log (result);
 
 
