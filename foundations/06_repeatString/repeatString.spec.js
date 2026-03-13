@@ -29,7 +29,7 @@ describe('repeatString', () => {
   test('returns ERROR with negative numbers', () => {
     expect(repeatString('good6 bye', -1)).toEqual('ERROR');
   });
-  test.skip('works with blank strings', () => {
+  test('works with blank strings', () => {
     expect(repeatString('', 10)).toEqual('');
   });
 });
