@@ -8,7 +8,7 @@ const repeatString = function (word, times) {
   return finalString;
 };
 
-let result = repeatString("hi", 1);
+let result = repeatString("bye", 0);
 console.log (result);
 
 
